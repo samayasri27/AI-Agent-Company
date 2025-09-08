@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/memory": "pages/memory.js",
+  "/departments": "pages/departments.js",
+  "/analytics": "pages/analytics.js",
+  "/tasks": "pages/tasks.js",
+  "/chat": "pages/chat.js",
+  "/agents": "pages/agents.js"
+}

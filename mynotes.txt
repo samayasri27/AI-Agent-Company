@@ -1,0 +1,11 @@
+# Terminal Mode (Interactive CLI)
+python run_server.py
+
+# API Server Mode (REST endpoints)  
+python run_server.py --mode api --port 8000
+
+# Web Dashboard Mode (React UI)
+python run_server.py --mode dashboard --dashboard-port 3000
+
+# Full Stack Mode (API + Dashboard)
+python run_server.py --mode full

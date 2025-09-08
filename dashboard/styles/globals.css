@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-dark-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-dark-800 border border-dark-700 rounded-lg shadow-lg;
+  }
+  
+  .card-header {
+    @apply px-6 py-4 border-b border-dark-700;
+  }
+  
+  .card-content {
+    @apply px-6 py-4;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white;
+  }
+  
+  .btn-secondary {
+    @apply bg-dark-700 hover:bg-dark-600 text-gray-300;
+  }
+  
+  .btn-success {
+    @apply bg-success-600 hover:bg-success-700 text-white;
+  }
+  
+  .btn-warning {
+    @apply bg-warning-600 hover:bg-warning-700 text-white;
+  }
+  
+  .btn-error {
+    @apply bg-error-600 hover:bg-error-700 text-white;
+  }
+  
+  .status-badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .status-active {
+    @apply bg-success-900 text-success-300;
+  }
+  
+  .status-inactive {
+    @apply bg-dark-700 text-gray-400;
+  }
+  
+  .status-error {
+    @apply bg-error-900 text-error-300;
+  }
+  
+  .status-warning {
+    @apply bg-warning-900 text-warning-300;
+  }
+  
+  .metric-card {
+    @apply card p-6;
+  }
+  
+  .metric-value {
+    @apply text-3xl font-bold text-white;
+  }
+  
+  .metric-label {
+    @apply text-sm text-gray-400 mt-1;
+  }
+  
+  .metric-change {
+    @apply text-sm font-medium mt-2;
+  }
+  
+  .metric-change.positive {
+    @apply text-success-400;
+  }
+  
+  .metric-change.negative {
+    @apply text-error-400;
+  }
+}

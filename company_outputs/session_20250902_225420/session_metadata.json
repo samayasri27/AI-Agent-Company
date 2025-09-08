@@ -1,0 +1,15 @@
+{
+  "session_id": "50f52d02",
+  "mode": "persistent",
+  "project_name": null,
+  "created_at": "2025-09-02T22:54:20.073998",
+  "categories": [
+    "docs",
+    "code",
+    "designs",
+    "reports",
+    "data",
+    "logs"
+  ],
+  "base_path": "company_outputs/session_20250902_225420"
+}
